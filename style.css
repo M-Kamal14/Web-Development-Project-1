@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(8, 1, 14);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 60px;
+    
+}
+.logo{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: magic;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes magic {
+    0%{
+        color: rgb(204, 96, 50);
+    }
+    25%{
+        color: rgb(59, 59, 220);
+    }
+    50%{
+        color: rgb(7, 7, 7);
+    }
+    
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+ul li a{
+    text-decoration: none; 
+    color: white;
+}
+li a:hover{
+    color: rgb(54, 54, 54);
+}
+
+.image{
+    background-image: url(./Imge.jpg);
+    min-height: 600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-transform: uppercase;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.text p {
+    padding: 20px;
+}
+.text button{
+    background-color: orangered;
+    font-size: 16px;
+    color: white;
+    border-radius: 25%;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.text button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: rgb(211, 124, 9);
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.text button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.text button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.about{
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+}
+.text1{
+    color: black;
+    position:relative;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    text-transform: capitalize;
+    padding: 50px;
+}
+.bgcolor{
+    background-color: #F9F9F9;
+    height: 30vh;
+    width: 100vw; 
+    padding: 80px;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.first,.second,.third{
+  
+    height: 150px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(245, 235, 235);
+    padding: 20px;
+    
+    
+}
+.first h2{
+    padding: 10px;
+    color: rgb(128, 94, 6);
+}
+.second h2{
+    padding: 10px;
+    color: rgb(128, 94, 6);
+}
+.third h2{
+    padding: 10px;
+    color: rgb(128, 94, 6);
+}
+#footer{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    top: 80px;
+    background-color: rgb(46, 26, 2);
+   
+}
+.footr{
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
